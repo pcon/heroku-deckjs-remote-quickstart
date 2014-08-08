@@ -1,0 +1,7 @@
+{
+	"name": "Deck.js with Remote",
+	"description": "Webbased presentation with remote presenter capabilities",
+	"repository": "https://github.com/pcon/heroku-deckjs-remote-quickstart",
+	"logo": "",
+	"keywords": ["node", "express", "static", "presentation"]
+}
