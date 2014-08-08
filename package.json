@@ -1,0 +1,30 @@
+{
+	"name": "heroku-deckjs-remote-quickstart",
+	"version": "1.0.0",
+	"description": "Deck.js and Deck.js remote for heroku",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pcon/heroku-deckjs-remote-quickstart.git"
+	},
+	"keywords": [
+		"presentation",
+		"web"
+	],
+	"author": "Patrick Connelly",
+	"license": "GPL",
+	"bugs": {
+		"url": "https://github.com/pcon/heroku-deckjs-remote-quickstart/issues"
+	},
+	"engines": {
+		"node": ">= 0.6.0",
+		"npm": ">= 1.0.0"
+	},
+	"dependencies": {
+		"socket.io": "0.9",
+		"connect": "2.2"
+	}
+}
