@@ -1,32 +1,30 @@
 This quickstart will get you going with [deck.js](http://imakewebthings.com/deck.js/) and includes the [remote deck.js](https://github.com/chrisjaure/deckjs-remote) functionality
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 #What is it?
 
 [Deck.js](http://imakewebthings.com/deck.js/) is a framework to make HTML based presentations.  One of it's extensions [remote deck.js](https://github.com/chrisjaure/deckjs-remote) allows a presenter to control the current slide that all of the connected guests are viewing.
 
-For example, if you installed this to your openshift account and navigated to http://slides-USERNAME.rhcloud.com/example/?master and the person you were presenting to navigated to http://slides-USERNAME.rhcloud.com/example/ you would be presented with this:
+For example, if you installed this to your heroku account and navigated to http://my-app-name.herokuapp.com/example/?master and the person you were presenting to navigated to http://my-app-name.herokuapp.com/example/ you would be presented with this:
 
-![Password Prompt](https://raw.githubusercontent.com/pcon/openshift-deckjs-remote-quickstart/master/docs/deck_step1.png)
+![Password Prompt](https://raw.githubusercontent.com/pcon/heroku-deckjs-remote-quickstart/master/docs/deck_step1.png)
 
 After the presenter enters the password (the default being "master"), the guest will be prompted to join the session
 
-![Session Prompt](https://raw.githubusercontent.com/pcon/openshift-deckjs-remote-quickstart/master/docs/deck_step2.png)
+![Session Prompt](https://raw.githubusercontent.com/pcon/heroku-deckjs-remote-quickstart/master/docs/deck_step2.png)
 
 Once the guest has joined the session, any slide changes that the presenter makes will be conveyed to the guest
 
-![Presentation](https://raw.githubusercontent.com/pcon/openshift-deckjs-remote-quickstart/master/docs/deck_step3.png)
+![Presentation](https://raw.githubusercontent.com/pcon/heroku-deckjs-remote-quickstart/master/docs/deck_step3.png)
 
 #How do I install it?
 
-## Running on Openshift
+## Running on Heroku
 
-Create an account at [http://openshift.redhat.com](http://openshift.redhat.com)
+Create an account at [http://heroku.com](http://heroku.com)
 
-Create the application (piggybacking on nodejs-0.10)
-
-    rhc app create slides nodejs-0.10 --from-code=git://github.com/pcon/openshift-deckjs-remote-quickstart.git
-    
-Run `git push` to start the app
+Deploy [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Adding new presentations
 

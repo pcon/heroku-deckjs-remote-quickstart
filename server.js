@@ -89,7 +89,7 @@ app.use(function (req, res, next) {
 	next();
 }).use(connect['static'](__dirname + '/public'));
 
-server = http.createServer(app).listen(process.env_PORT || 5000);
+server = http.createServer(app).listen(process.env.PORT || 5000);
 
 // set up the socket
 io = socketio.listen(server);
