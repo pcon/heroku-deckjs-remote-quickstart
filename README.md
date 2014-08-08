@@ -24,7 +24,8 @@ Once the guest has joined the session, any slide changes that the presenter make
 
 Create an account at [http://heroku.com](http://heroku.com)
 
-Deploy [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Click this button
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Adding new presentations
 
