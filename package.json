@@ -25,6 +25,6 @@
 	},
 	"dependencies": {
 		"socket.io": "0.9",
-		"connect": "2.2"
+		"connect": "3.7"
 	}
 }
